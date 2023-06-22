@@ -1,0 +1,810 @@
+<!DOCTYPE html>
+<!-- saved from url=(0048)https://rishtasite.in/sales_admin/admin/home.php -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <title>Home</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="author" content="admin">
+    <link rel="Shortcut Icon" href="https://rishtasite.in/sales_admin/img/favicon.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="./home_files/bootstrap.min.css" rel="stylesheet" type="text/css" media="all">
+    <link href="./home_files/adminStyles.css" rel="stylesheet" type="text/css">
+    <link href="./home_files/loginStyles.css" rel="stylesheet" type="text/css">
+    <link href="./home_files/css" rel="stylesheet" type="text/css">
+    <link href="./home_files/demo.min.css" rel="stylesheet" type="text/css" media="all">
+    <link href="./home_files/animate.css" rel="stylesheet" type="text/css" media="all">
+    <style type="text/css">
+        .alert-mysuccess {
+            background-color: #ebeeef;
+            border-color: #ccc;
+        }
+
+        .alert-myheading {
+            background: #13c2cf;
+            color: #fff;
+            text-align: left;
+        }
+
+        .alert-dark {
+            color: #464a4e;
+            background-color: #e7e8ea;
+            border-color: #dddfe2;
+        }
+
+        td {
+            border: none !important;
+        }
+
+        a {
+            text-decoration: none !important;
+        }
+
+        .amanpanel {
+            margin-bottom: 10px !important;
+        }
+    </style>
+<style type="text/css"> #u-left-panel{ min-height: 2000px; } .content-panel{ min-height: 1920px;} </style></head>
+<body class="skin-polaris">
+<div id="u-app-wrapper">
+    <!-- Enter navigation here-->
+    <div id="u-topbar" style="min-width: 1461px;">
+    <div class="title" style="background-color:#DA5252;">
+        Rishta <br>
+        <span class="title-sub">ERP System</span>
+    </div>
+    <span class="left-panel-toggle">
+		
+	</span>
+
+        <ul class="topbar-user list-unstyled">
+        <li class="dropdown">
+            <a href="https://rishtasite.in/sales_admin/admin/home.php#" class="dropdown-toggle" data-toggle="dropdown">
+                <span class="topbar-username">Welcome Sales Admin<i class="fa fa-angle-down"></i></span>
+                <span class="topbar-userimage"><img src="./home_files/user.jpg" alt="user-image"></span>
+            </a>
+            <ul class="dropdown-menu">
+                <li>
+                    <a href="https://rishtasite.in/sales_admin/admin/changepassword.php">Change Password</a>
+                </li>
+                <li>
+                    <a href="https://rishtasite.in/sales_admin/logout.php">Sign out</a>
+                </li>
+            </ul>
+        </li>
+    </ul>
+
+        <ul class="topbar-user list-unstyled" style="margin-top: 27px; margin-right: 5px;">
+        <li class="dropdown">
+            <a href="https://rishtasite.in/sales_admin/admin/home.php#" class="dropdown-toggle" data-toggle="dropdown" style="position: relative">
+                <span class="topbar-username" style="border-left: none;color: #2c333e;position: relative;">
+                    <i style="padding-top:10px;" class="fa fa-bell fa-2x"></i>
+                     <sup style="position: relative;top: -15px;right: 3px;font-weight: bold;font-size: 50px;color: #ff4b5a;">
+                         0                     </sup>
+                </span>
+            </a>
+            <ul class="dropdown-menu">
+                            </ul>
+        </li>
+    </ul>
+</div>
+
+
+    <div id="u-left-panel" class="u-left-panel19">
+        <!-- Enter navigation here-->
+        <div id="u-left-menu">
+    <ul class="CustomMenu">
+        <li class="left-menu-parent metrobox-row-1 metrobox-blue animate-tada">
+            <a href="https://rishtasite.in/sales_admin/admin/home.php" data-content-location="view/test.html" data-target="ajax">
+                <span class="left-menu-link-icon">
+                    <i class="fa fa-home"></i>
+                </span>
+                <span class="left-menu-link-info">
+                    <span class="link-name">Dashboard</span>
+                </span>
+            </a>
+        </li>
+        
+        <li class="dropdown left-menu-parent metrobox-row-1 metrobox-blue animate-tada">
+            <a href="https://rishtasite.in/sales_admin/admin/home.php#" class="dropdown-toggle" data-toggle="dropdown">
+                <span class="left-menu-link-icon">
+                    <i class="fa fa-users"></i>
+                </span>
+                <span class="left-menu-link-info"> <span class="link-name">Leads</span><i class="fa fa-angle-down" style="padding-left: 10px;"></i></span>
+            </a>
+            
+            <ul class="dropdown-menu" style="background-color:#4169e1;">
+                <!--li>
+                    <a href="add-new-user.php">
+                     <!--span class="left-menu-link-icon" style="padding-right: 30px">
+                     <i class="fa fa-users"></i>
+                     </span>
+                     <span class="left-menu-link-info">
+                     <span class="link-name">Add Sales Executives</span>
+                     </span>
+                    </a>
+                </li>
+                
+               <li>
+                    <a href="manage-users.php">
+                     <span class="left-menu-link-info">
+                     <span class="link-name">Manage Sales Executive</span>
+                     </span>
+                    </a>
+                </li-->
+                
+               <li>
+                    <a href="https://rishtasite.in/sales_admin/admin/manage-rishta-leads.php">
+                     <span class="left-menu-link-info">
+                     <span class="link-name">Leads</span>
+                     </span>
+                    </a>
+                </li>
+                
+               <li>
+                    <a href="https://rishtasite.in/sales_admin/admin/manage-bulk-leads.php">
+                     <span class="left-menu-link-info">
+                     <span class="link-name">Assign Leads</span>
+                     </span>
+                    </a>
+                </li>
+                
+               
+            </ul>
+            
+        </li>
+        
+        <li class="dropdown left-menu-parent metrobox-row-1 metrobox-blue animate-tada">
+            <a href="https://rishtasite.in/sales_admin/admin/home.php#" class="dropdown-toggle" data-toggle="dropdown">
+                <span class="left-menu-link-icon">
+                    <i class="fa fa-users"></i>
+                </span>
+                <span class="left-menu-link-info"> <span class="link-name">Reports</span><i class="fa fa-angle-down" style="padding-left: 10px;"></i></span>
+            </a>
+            
+            <ul class="dropdown-menu" style="background-color:#4169e1;">
+                <li>
+                    <a href="https://rishtasite.in/sales_admin/admin/assign-target.php">
+                     <!--span class="left-menu-link-icon" style="padding-right: 30px">
+                     <i class="fa fa-users"></i>
+                     </span-->
+                     <span class="left-menu-link-info">
+                     <span class="link-name">Sales Target</span>
+                     </span>
+                    </a>
+                </li>
+                
+               <li>
+                    <a href="https://rishtasite.in/sales_admin/admin/3cx_total.php">
+                     <span class="left-menu-link-info">
+                     <span class="link-name">3CX  Calling Report</span>
+                     </span>
+                    </a>
+                </li>
+                
+               <li>
+                    <a href="https://rishtasite.in/sales_admin/admin/1_total.php">
+                     <span class="left-menu-link-info">
+                     <span class="link-name">Indian Calling Report</span>
+                     </span>
+                    </a>
+                </li>
+                
+               <li>
+                    <a href="https://rishtasite.in/sales_admin/admin/sale_status.php">
+                     <span class="left-menu-link-info">
+                     <span class="link-name">Source/Sales</span>
+                     </span>
+                    </a>
+                </li>
+                
+                <li>
+                    <a href="https://rishtasite.in/sales_admin/admin/list_call_schedule.php">
+                     <span class="left-menu-link-info">
+                     <span class="link-name">Call Schedule</span>
+                     </span>
+                    </a>
+                </li>
+                
+                <li>
+                    <a href="https://rishtasite.in/sales_admin/admin/all_agent_report.php">
+                     <span class="left-menu-link-info">
+                     <span class="link-name">Sales Report</span>
+                     </span>
+                    </a>
+                </li>
+                
+                <li>
+                    <a href="https://rishtasite.in/sales_admin/admin/video_report.php">
+                     <span class="left-menu-link-info">
+                     <span class="link-name">Video Calling Report</span>
+                     </span>
+                    </a>
+                </li>
+               
+            </ul>
+            
+        </li>
+        
+        <li class="left-menu-parent metrobox-pink metrobox-wide animate-jello">
+            <a href="https://rishtasite.in/sales_admin/admin/add-new-user.php">
+                <span class="left-menu-link-icon">
+                    <i class="fa fa-users"></i>
+                </span>
+                <span class="left-menu-link-info">
+                    <span class="link-name">Add Users</span>
+                </span>
+            </a>
+        </li>
+
+        <li class="left-menu-parent metrobox-pink metrobox-wide animate-jello">
+            <a href="https://rishtasite.in/sales_admin/admin/manage-users.php">
+                <span class="left-menu-link-icon">
+                    <i class="fa fa-users"></i>
+                </span>
+                <span class="left-menu-link-info">
+                    <span class="link-name">Manage Users</span>
+                </span>
+            </a>
+        </li>
+
+        <!--li class="left-menu-parent metrobox-pink metrobox-wide animate-jello">
+            <a href="manage-training-leads.php">
+                <span class="left-menu-link-icon">
+                    <i class="fa fa-users"></i>
+                </span>
+                <span class="left-menu-link-info">
+                    <span class="link-name">Manage Training Leads</span>
+                </span>
+            </a>
+        </li>
+        <li class="left-menu-parent metrobox-pink metrobox-wide animate-jello">
+            <a href="manage-project-leads.php">
+                <span class="left-menu-link-icon">
+                    <i class="fa fa-users"></i>
+                </span>
+                <span class="left-menu-link-info">
+                    <span class="link-name">Manage Project Leads</span>
+                </span>
+            </a>
+        </li-->
+
+        <!--li class="left-menu-parent metrobox-pink metrobox-wide animate-jello">
+            <a href="manage-rishta-leads.php">
+                <span class="left-menu-link-icon">
+                    <i class="fa fa-users"></i>
+                </span>
+                <span class="left-menu-link-info">
+                    <span class="link-name">Manage Rishta Leads</span>
+                </span>
+            </a>
+        </li>
+
+        <li class="left-menu-parent metrobox-pink metrobox-wide animate-jello">
+            <a href="manage-bulk-leads.php">
+                <span class="left-menu-link-icon">
+                    <i class="fa fa-users"></i>
+                </span>
+                <span class="left-menu-link-info">
+                    <span class="link-name">Assign Bulk Leads</span>
+                </span>
+            </a>
+        </li>
+        
+                <li class="left-menu-parent metrobox-pink metrobox-wide animate-jello">
+            <a href="assign-target.php">
+                <span class="left-menu-link-icon">
+                    <i class="fa fa-users"></i>
+                </span>
+                <span class="left-menu-link-info">
+                    <span class="link-name">Assign Taget</span>
+                </span>
+            </a>
+        </li>
+        
+             <li class="left-menu-parent metrobox-pink metrobox-wide animate-jello">
+            <a href="3cx_total.php">
+                <span class="left-menu-link-icon">
+                    <i class="fa fa-users"></i>
+                </span>
+                <span class="left-menu-link-info">
+                    <span class="link-name">3cx All Report</span>
+                </span>
+            </a>
+        </li>
+        
+            <li class="left-menu-parent metrobox-pink metrobox-wide animate-jello">
+            <a href="1_total.php">
+                <span class="left-menu-link-icon">
+                    <i class="fa fa-users"></i>
+                </span>
+                <span class="left-menu-link-info">
+                    <span class="link-name">Indian Dialer Report</span>
+                </span>
+            </a>
+        </li>
+        
+             <li class="left-menu-parent metrobox-pink metrobox-wide animate-jello">
+            <a href="sale_status.php">
+                <span class="left-menu-link-icon">
+                    <i class="fa fa-users"></i>
+                </span>
+                <span class="left-menu-link-info">
+                    <span class="link-name">Sale vs Status</span>
+                </span>
+            </a>
+        </li-->
+        
+           <!--li class="left-menu-parent metrobox-pink metrobox-wide animate-jello">
+            <a href="all_agent_report.php">
+                <span class="left-menu-link-icon">
+                    <i class="fa fa-users"></i>
+                </span>
+                <span class="left-menu-link-info">
+                    <span class="link-name">Agents Report Monthly</span>
+                </span>
+            </a>
+        </li>
+
+
+        <li class="left-menu-parent metrobox-pink metrobox-wide animate-jello">
+            <a href="list_call_schedule.php">
+                <span class="left-menu-link-icon">
+                    <i class="fa fa-phone"></i>
+                </span>
+                <span class="left-menu-link-info">
+                    <span class="link-name">Call Schedule</span>
+                </span>
+            </a>
+        </li-->
+        
+              <li class="left-menu-parent metrobox-pink metrobox-wide animate-jello">
+            <a href="https://rishtasite.in/sales_admin/admin/upload-data.php">
+                <span class="left-menu-link-icon">
+                    <i class="fa fa-users"></i>
+                </span>
+                <span class="left-menu-link-info">
+                    <span class="link-name">Upload Data </span>
+                </span>
+            </a>
+        </li>
+        
+             <li class="left-menu-parent metrobox-pink metrobox-wide animate-jello">
+            <a href="https://rishtasite.in/sales_admin/admin/bulk-email.php">
+                <span class="left-menu-link-icon">
+                    <i class="fa fa-users"></i>
+                </span>
+                <span class="left-menu-link-info">
+                    <span class="link-name">Bulk Email</span>
+                </span>
+            </a>
+        </li>
+        
+        
+        <li class="left-menu-parent metrobox-pink metrobox-wide animate-jello">
+            <a href="https://rishtasite.in/sales_admin/admin/pipeline.php">
+                <span class="left-menu-link-icon">
+                    <i class="fa fa-users"></i>
+                </span>
+                <span class="left-menu-link-info">
+                    <span class="link-name">Pipeline</span>
+                </span>
+            </a>
+        </li>
+
+        <!--li class="left-menu-parent metrobox-pink metrobox-wide animate-jello">
+            <a href="manage-filters.php">
+                <span class="left-menu-link-icon">
+                    <i class="fa fa-users"></i>
+                </span>
+                <span class="left-menu-link-info">
+                    <span class="link-name">Filter Leads</span>
+                </span>
+            </a>
+        </li-->
+
+        <!--li class="left-menu-parent metrobox-row-1 metrobox-blue animate-tada">
+            <a href="manage-faqs.php">
+                <span class="left-menu-link-icon">
+                    <i class="fa fa-question"></i>
+                </span>
+                <span class="left-menu-link-info">
+                    <span class="link-name">Manage FAQs</span>
+                </span>
+            </a>
+        </li-->
+        
+        <li class="left-menu-parent metrobox-pink metrobox-wide animate-jello">
+            <a href="https://rishtasite.in/sales_admin/admin/changepassword.php">
+                <span class="left-menu-link-icon">
+                    <i class="fa fa-life-ring"></i>
+                </span>
+                <span class="left-menu-link-info">
+                    <span class="link-name">Change Password</span>
+                </span>
+            </a>
+        </li>
+
+        <li class="left-menu-parent metrobox-pink metrobox-wide animate-jello">
+            <a href="https://rishtasite.in/sales_admin/logout.php">
+                <span class="left-menu-link-icon">
+                    <i class="fa fa-life-ring"></i>
+                </span>
+                <span class="left-menu-link-info">
+                    <span class="link-name">Logout</span>
+                </span>
+            </a>
+        </li>
+
+
+        
+    </ul>
+</div>    </div>
+      <div class="content-wrapper">
+        <div class="content-panel content-shrink">
+            <div class="container-fluid">
+                <div class="row">
+   
+   
+   
+   
+   
+   
+   
+                    <div class="col-md-4">
+                        <table class="table table-responsive">
+                            <tbody><tr>
+                                <td colspan="2"><h3>Total Pipeline</h3></td>
+                            </tr>
+                            <tr class="alert alert-dark">
+                                <td><strong>Total Leads!</strong></td>
+                                                           <td>12473 Leads (Converted : 1.250701515273%   
+                      </td>
+                           
+                            </tr>
+                                                          <tr class="alert alert-danger">
+                                        <td><strong>New Call</strong></td>
+                                        <td>
+                                            <a href="https://rishtasite.in/sales_admin/admin/manage-rishta-leads.php?eid=0&amp;type=new%20call" class="alert-link">
+                                                <div>3 Leads</div>
+                                            </a>
+                                        </td>
+                                    </tr>
+                                                                    <tr class="alert alert-success">
+                                        <td><strong>No Match Shared yet</strong></td>
+                                        <td>
+                                            <a href="https://rishtasite.in/sales_admin/admin/manage-rishta-leads.php?eid=0&amp;type=no%20match%20shared%20yet" class="alert-link">
+                                                <div>43 Leads</div>
+                                            </a>
+                                        </td>
+                                    </tr>
+                                                                    <tr class="alert alert-danger">
+                                        <td><strong>Match Shared</strong></td>
+                                        <td>
+                                            <a href="https://rishtasite.in/sales_admin/admin/manage-rishta-leads.php?eid=0&amp;type=match%20shared" class="alert-link">
+                                                <div>248 Leads</div>
+                                            </a>
+                                        </td>
+                                    </tr>
+                                                                    <tr class="alert alert-warning">
+                                        <td><strong>Follow up</strong></td>
+                                        <td>
+                                            <a href="https://rishtasite.in/sales_admin/admin/manage-rishta-leads.php?eid=0&amp;type=follow%20up" class="alert-link">
+                                                <div>9753 Leads</div>
+                                            </a>
+                                        </td>
+                                    </tr>
+                                                                    <tr class="alert alert-danger">
+                                        <td><strong>Close to conversion</strong></td>
+                                        <td>
+                                            <a href="https://rishtasite.in/sales_admin/admin/manage-rishta-leads.php?eid=0&amp;type=close%20to%20conversion" class="alert-link">
+                                                <div>433 Leads</div>
+                                            </a>
+                                        </td>
+                                    </tr>
+                                                                    <tr class="alert alert-info">
+                                        <td><strong>Fully Paid</strong></td>
+                                        <td>
+                                            <a href="https://rishtasite.in/sales_admin/admin/manage-rishta-leads.php?eid=0&amp;type=fully%20paid" class="alert-link">
+                                                <div>156 Leads</div>
+                                            </a>
+                                        </td>
+                                    </tr>
+                                                                    <tr class="alert alert-warning">
+                                        <td><strong>Lead Rejected</strong></td>
+                                        <td>
+                                            <a href="https://rishtasite.in/sales_admin/admin/manage-rishta-leads.php?eid=0&amp;type=lead%20rejected" class="alert-link">
+                                                <div>894 Leads</div>
+                                            </a>
+                                        </td>
+                                    </tr>
+                                                                    <tr class="alert alert-warning">
+                                        <td><strong>Refund</strong></td>
+                                        <td>
+                                            <a href="https://rishtasite.in/sales_admin/admin/manage-rishta-leads.php?eid=0&amp;type=refund" class="alert-link">
+                                                <div>4 Leads</div>
+                                            </a>
+                                        </td>
+                                    </tr>
+                                                                    <tr class="alert alert-success">
+                                        <td><strong>Fresh Lead</strong></td>
+                                        <td>
+                                            <a href="https://rishtasite.in/sales_admin/admin/manage-rishta-leads.php?eid=0&amp;type=fresh%20lead" class="alert-link">
+                                                <div>2 Leads</div>
+                                            </a>
+                                        </td>
+                                    </tr>
+                                                                    <tr class="alert alert-info">
+                                        <td><strong>Renewal Lead</strong></td>
+                                        <td>
+                                            <a href="https://rishtasite.in/sales_admin/admin/manage-rishta-leads.php?eid=0&amp;type=renewal%20lead" class="alert-link">
+                                                <div>2 Leads</div>
+                                            </a>
+                                        </td>
+                                    </tr>
+                                                                    <tr class="alert alert-danger">
+                                        <td><strong>Ptential CRM Lead</strong></td>
+                                        <td>
+                                            <a href="https://rishtasite.in/sales_admin/admin/manage-rishta-leads.php?eid=0&amp;type=ptential%20crm%20lead" class="alert-link">
+                                                <div>4 Leads</div>
+                                            </a>
+                                        </td>
+                                    </tr>
+                                                                    <tr class="alert alert-danger">
+                                        <td><strong>Old Leads</strong></td>
+                                        <td>
+                                            <a href="https://rishtasite.in/sales_admin/admin/manage-rishta-leads.php?eid=0&amp;type=old%20leads" class="alert-link">
+                                                <div>0 Leads</div>
+                                            </a>
+                                        </td>
+                                    </tr>
+                                                        </tbody></table>
+                    </div>
+   
+   <div class="col-md-4">
+                        <table class="table table-responsive">
+                            <tbody><tr>
+                                <td colspan="2"><h3>Monthly Pipeline</h3></td>
+                            </tr>
+                            <tr class="alert alert-dark">
+                                <td><strong>This Month Leads!</strong></td>
+                                                                      <td>12473 Leads (Converted : 1.250701515273%   
+                      </td>
+                                <!--td><//?php echo $total_leads ?> Leads (Converted : <//?php echo get_percentage($total_leads, (getCountMonthlyLeads('rishta_leadmaster', 'rishta_lead'))) ?>%)</td-->
+                           
+                            </tr>
+                                                                <tr class="alert alert-success">
+                                        <td><strong>New Call</strong></td>
+                                        <td>
+                                            <a href="https://rishtasite.in/sales_admin/admin/manage-rishta-leads.php?eid=0&amp;type=new%20call" class="alert-link">
+                                                <div>3 Leads</div>
+                                            </a>
+                                        </td>
+                                    </tr>
+                                                                    <tr class="alert alert-info">
+                                        <td><strong>No Match Shared yet</strong></td>
+                                        <td>
+                                            <a href="https://rishtasite.in/sales_admin/admin/manage-rishta-leads.php?eid=0&amp;type=no%20match%20shared%20yet" class="alert-link">
+                                                <div>43 Leads</div>
+                                            </a>
+                                        </td>
+                                    </tr>
+                                                                    <tr class="alert alert-success">
+                                        <td><strong>Match Shared</strong></td>
+                                        <td>
+                                            <a href="https://rishtasite.in/sales_admin/admin/manage-rishta-leads.php?eid=0&amp;type=match%20shared" class="alert-link">
+                                                <div>248 Leads</div>
+                                            </a>
+                                        </td>
+                                    </tr>
+                                                                    <tr class="alert alert-warning">
+                                        <td><strong>Follow up</strong></td>
+                                        <td>
+                                            <a href="https://rishtasite.in/sales_admin/admin/manage-rishta-leads.php?eid=0&amp;type=follow%20up" class="alert-link">
+                                                <div>9753 Leads</div>
+                                            </a>
+                                        </td>
+                                    </tr>
+                                                                    <tr class="alert alert-success">
+                                        <td><strong>Close to conversion</strong></td>
+                                        <td>
+                                            <a href="https://rishtasite.in/sales_admin/admin/manage-rishta-leads.php?eid=0&amp;type=close%20to%20conversion" class="alert-link">
+                                                <div>433 Leads</div>
+                                            </a>
+                                        </td>
+                                    </tr>
+                                                                    <tr class="alert alert-warning">
+                                        <td><strong>Fully Paid</strong></td>
+                                        <td>
+                                            <a href="https://rishtasite.in/sales_admin/admin/manage-rishta-leads.php?eid=0&amp;type=fully%20paid" class="alert-link">
+                                                <div>156 Leads</div>
+                                            </a>
+                                        </td>
+                                    </tr>
+                                                                    <tr class="alert alert-danger">
+                                        <td><strong>Lead Rejected</strong></td>
+                                        <td>
+                                            <a href="https://rishtasite.in/sales_admin/admin/manage-rishta-leads.php?eid=0&amp;type=lead%20rejected" class="alert-link">
+                                                <div>894 Leads</div>
+                                            </a>
+                                        </td>
+                                    </tr>
+                                                                    <tr class="alert alert-warning">
+                                        <td><strong>Refund</strong></td>
+                                        <td>
+                                            <a href="https://rishtasite.in/sales_admin/admin/manage-rishta-leads.php?eid=0&amp;type=refund" class="alert-link">
+                                                <div>4 Leads</div>
+                                            </a>
+                                        </td>
+                                    </tr>
+                                                                    <tr class="alert alert-warning">
+                                        <td><strong>Fresh Lead</strong></td>
+                                        <td>
+                                            <a href="https://rishtasite.in/sales_admin/admin/manage-rishta-leads.php?eid=0&amp;type=fresh%20lead" class="alert-link">
+                                                <div>2 Leads</div>
+                                            </a>
+                                        </td>
+                                    </tr>
+                                                                    <tr class="alert alert-danger">
+                                        <td><strong>Renewal Lead</strong></td>
+                                        <td>
+                                            <a href="https://rishtasite.in/sales_admin/admin/manage-rishta-leads.php?eid=0&amp;type=renewal%20lead" class="alert-link">
+                                                <div>2 Leads</div>
+                                            </a>
+                                        </td>
+                                    </tr>
+                                                                    <tr class="alert alert-success">
+                                        <td><strong>Ptential CRM Lead</strong></td>
+                                        <td>
+                                            <a href="https://rishtasite.in/sales_admin/admin/manage-rishta-leads.php?eid=0&amp;type=ptential%20crm%20lead" class="alert-link">
+                                                <div>4 Leads</div>
+                                            </a>
+                                        </td>
+                                    </tr>
+                                                                    <tr class="alert alert-warning">
+                                        <td><strong>Old Leads</strong></td>
+                                        <td>
+                                            <a href="https://rishtasite.in/sales_admin/admin/manage-rishta-leads.php?eid=0&amp;type=old%20leads" class="alert-link">
+                                                <div>0 Leads</div>
+                                            </a>
+                                        </td>
+                                    </tr>
+                                                        </tbody></table>
+                    </div>
+   
+          <div class="col-md-4">
+                        <table class="table table-responsive">
+                            <tbody><tr>
+                                <td colspan="2"><h3>Today's Pipeline</h3></td>
+                            </tr>
+                            <tr class="alert alert-dark">
+                                <td><strong>Today Leads!</strong></td>
+                                                                       <td>0 Leads (Converted : NAN%   
+                      </td>
+                                <!--td><//?php echo $total_leads ?> Leads (Converted : <//?php echo get_percentage($total_leads, (getCountTodaysLeads('rishta_leadmaster', 'rishta_lead'))) ?>%)</td-->
+                            </tr>
+                                                                <tr class="alert alert-warning">
+                                        <td><strong>New Call</strong></td>
+                                        <td>
+                                            <a href="https://rishtasite.in/sales_admin/admin/manage-training-leads.php?eid=0&amp;type=new%20call" class="alert-link">
+                                                <div>0 Leads</div>
+                                            </a>
+                                        </td>
+                                    </tr>
+                                                                    <tr class="alert alert-danger">
+                                        <td><strong>No Match Shared yet</strong></td>
+                                        <td>
+                                            <a href="https://rishtasite.in/sales_admin/admin/manage-training-leads.php?eid=0&amp;type=no%20match%20shared%20yet" class="alert-link">
+                                                <div>0 Leads</div>
+                                            </a>
+                                        </td>
+                                    </tr>
+                                                                    <tr class="alert alert-info">
+                                        <td><strong>Match Shared</strong></td>
+                                        <td>
+                                            <a href="https://rishtasite.in/sales_admin/admin/manage-training-leads.php?eid=0&amp;type=match%20shared" class="alert-link">
+                                                <div>0 Leads</div>
+                                            </a>
+                                        </td>
+                                    </tr>
+                                                                    <tr class="alert alert-warning">
+                                        <td><strong>Follow up</strong></td>
+                                        <td>
+                                            <a href="https://rishtasite.in/sales_admin/admin/manage-training-leads.php?eid=0&amp;type=follow%20up" class="alert-link">
+                                                <div>0 Leads</div>
+                                            </a>
+                                        </td>
+                                    </tr>
+                                                                    <tr class="alert alert-success">
+                                        <td><strong>Close to conversion</strong></td>
+                                        <td>
+                                            <a href="https://rishtasite.in/sales_admin/admin/manage-training-leads.php?eid=0&amp;type=close%20to%20conversion" class="alert-link">
+                                                <div>0 Leads</div>
+                                            </a>
+                                        </td>
+                                    </tr>
+                                                                    <tr class="alert alert-warning">
+                                        <td><strong>Fully Paid</strong></td>
+                                        <td>
+                                            <a href="https://rishtasite.in/sales_admin/admin/manage-training-leads.php?eid=0&amp;type=fully%20paid" class="alert-link">
+                                                <div>0 Leads</div>
+                                            </a>
+                                        </td>
+                                    </tr>
+                                                                    <tr class="alert alert-success">
+                                        <td><strong>Lead Rejected</strong></td>
+                                        <td>
+                                            <a href="https://rishtasite.in/sales_admin/admin/manage-training-leads.php?eid=0&amp;type=lead%20rejected" class="alert-link">
+                                                <div>0 Leads</div>
+                                            </a>
+                                        </td>
+                                    </tr>
+                                                                    <tr class="alert alert-warning">
+                                        <td><strong>Refund</strong></td>
+                                        <td>
+                                            <a href="https://rishtasite.in/sales_admin/admin/manage-training-leads.php?eid=0&amp;type=refund" class="alert-link">
+                                                <div>0 Leads</div>
+                                            </a>
+                                        </td>
+                                    </tr>
+                                                                    <tr class="alert alert-info">
+                                        <td><strong>Fresh Lead</strong></td>
+                                        <td>
+                                            <a href="https://rishtasite.in/sales_admin/admin/manage-training-leads.php?eid=0&amp;type=fresh%20lead" class="alert-link">
+                                                <div>0 Leads</div>
+                                            </a>
+                                        </td>
+                                    </tr>
+                                                                    <tr class="alert alert-danger">
+                                        <td><strong>Renewal Lead</strong></td>
+                                        <td>
+                                            <a href="https://rishtasite.in/sales_admin/admin/manage-training-leads.php?eid=0&amp;type=renewal%20lead" class="alert-link">
+                                                <div>0 Leads</div>
+                                            </a>
+                                        </td>
+                                    </tr>
+                                                                    <tr class="alert alert-info">
+                                        <td><strong>Ptential CRM Lead</strong></td>
+                                        <td>
+                                            <a href="https://rishtasite.in/sales_admin/admin/manage-training-leads.php?eid=0&amp;type=ptential%20crm%20lead" class="alert-link">
+                                                <div>0 Leads</div>
+                                            </a>
+                                        </td>
+                                    </tr>
+                                                                    <tr class="alert alert-info">
+                                        <td><strong>Old Leads</strong></td>
+                                        <td>
+                                            <a href="https://rishtasite.in/sales_admin/admin/manage-training-leads.php?eid=0&amp;type=old%20leads" class="alert-link">
+                                                <div>0 Leads</div>
+                                            </a>
+                                        </td>
+                                    </tr>
+                                                        </tbody></table>
+                    </div>
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+    
+    
+    
+          </div>  
+       </div>   
+    </div>    
+ </div>   
+</div><!--Global-->
+
+
+<!--COMBINED FILE-->
+<script src="./home_files/jquery.js.download" type="text/javascript"></script>
+<script src="./home_files/jquery-ui.js.download" type="text/javascript"></script>
+<script>
+
+</script>
+
+</body></html>
