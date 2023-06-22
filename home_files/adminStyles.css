@@ -1,0 +1,258 @@
+﻿@import url('font-awesome.min.css');
+@import url('jquery-ui.css');
+body{font-family: 'Open Sans';margin:0px;
+    padding:0px;}
+*
+{
+    margin:0px;
+    padding:0px;
+}
+h3
+{
+    padding:0px;
+    color:#DA5252;
+    margin-bottom:20px;
+    font-size: 30px;
+}
+
+.form-control-custom{display:block;width:100%;background-color: #dde3ec;height: 40px;color: #364150;border: 1px solid #dde3ec;margin-bottom:20px;padding: 6px 12px;font-size: 14px;line-height: 1.42857143;background-image: none;}
+.form-control-custom:focus
+{
+    border: 1px solid #C37676;
+    outline:none;
+}
+.form-control-custom:placeholder
+{
+    color: #dde3ec;
+}
+::-webkit-input-placeholder {
+   color: #AEAAAA;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   color: #AEAAAA;  
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   color: #AEAAAA;  
+}
+
+:-ms-input-placeholder {  
+   color: #AEAAAA;  
+}
+
+.btnCustom
+{
+    background-color:#ff4b5a;
+    padding:7px 15px 7px 15px;
+    border:none;
+    color:#fff;
+}
+
+.btnCustom:hover
+{
+    background-color:#C33C3C;
+    text-decoration:none;
+    color:#fff;
+}
+
+.btnCustom:focus
+{
+    text-decoration:none;
+    color:#fff;
+}
+
+
+.botom
+{
+    margin-top: 6px;
+}
+
+
+.btnCancel
+{
+    background-color:#ccc;
+    padding:7px 15px 7px 15px;
+    border:none;
+    color:#333;
+}
+
+
+.btnCancel:hover
+{
+  background-color:#D2D6DE;
+  text-decoration:none;
+  color:#333;
+}
+
+.btnCustom:focus,btnCancel:focus
+{
+    outline:none;
+}
+
+
+.error
+{
+    color:#a94442;
+    /*display:block;*/
+}
+
+.copyright
+{
+    color:GrayText;
+    font-size:12px;
+    text-align:center;
+}
+
+.ryt
+{
+    float:right;
+}
+
+.lft
+{
+    float:left;
+}
+
+.txt-ryt
+{
+    text-align:right;
+}
+
+.txt-lft
+{
+    text-align:left;
+}
+
+.drop {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    /*background: url(../images/arrow.png) no-repeat 95% center;*/
+    background-image: url('../images/arrow.png');
+   background-repeat: no-repeat;
+   background-position: right 10px center;
+}
+
+label
+{
+    font-weight:400;
+}
+
+.plus
+{
+	font-size: 25px;
+}
+.mtop30
+{
+	margin-top: 30px;
+}
+.mtop20
+{
+	margin-top: 20px;
+}
+.mtop10
+{
+	margin-top: 10px;
+}
+
+.mbottom30
+{
+	margin-bottom: 30px;
+}
+.mbottom20
+{
+	margin-bottom: 20px;
+}
+.mbottom10
+{
+	margin-bottom: 10px;
+}
+
+.ui-datepicker .ui-datepicker-header {
+    position: relative;
+    padding: .2em 0;
+    background: #DA5252;
+}
+.redfonts
+{
+	color: #DA5252;
+}
+
+/*-----------Menu -------------------*/
+.CustomMenu
+{
+	margin-top:10px;
+}
+
+.CustomMenu li a
+{
+	color:#fff;
+}
+
+.subheading
+{
+	color:#09A1AD;
+}
+#u-left-panel 
+{
+    min-height: 2000px!important;
+}
+
+.scrollMarketing
+{
+	background: #efebeb;
+	padding:5px;
+	height: 280px;
+	overflow:auto;
+}
+
+.nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover {
+    color: #fff;
+    background-color: #5bc0de;
+}
+
+.icons
+{
+	font-size: 100px!important;
+	color: #376d73;
+}
+/*********************/
+#idMsg1
+{
+	height: 65px;margin-top:30px;
+	font-size: 16px;
+    font-weight: 500;
+}
+.messsagedata
+{
+	background-color: #fff;
+    min-height: 140px;
+    width: 370px;
+    padding: 10px 30px;
+    color: red;
+    font-size: 20px;
+	text-align:center;
+	font-weight: 400;
+}
+.my_overlay_div
+{
+	 border: 2px solid #49AAE8!important;
+	 position: fixed; 
+	 top: 50%;	
+	 left: 50%; 
+	 font-weight: bold; 
+	 color: #fff; 
+	 margin-top: -70px; 
+	 margin-left: -175px;
+}
+#cover
+{	
+	position:fixed; 
+	top:0; left:0; 
+	background:rgba(0,0,0,0.6); 
+	z-index:5; 
+	width:100%; 
+	height:100%;
+}
+/*********************/
